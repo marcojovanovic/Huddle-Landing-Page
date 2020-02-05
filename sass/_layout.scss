@@ -1,0 +1,165 @@
+.flex-container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  margin-top: -7rem;
+
+
+  @media only screen and(max-width:$bp-medium) {
+
+    flex-direction: column;
+    align-items: center;
+  }
+
+}
+
+.bg {
+
+  background: linear-gradient(rgba(103, 75, 175, 0.6), rgba(116, 74, 230, 0.6)), url(../img/bg-desktop.svg) no-repeat top right/cover;
+  background-attachment: fixed;
+
+  @media only screen and(max-width:$bp-medium) {
+
+    
+  background: linear-gradient(rgba(103, 75, 175, 0.6), rgba(116, 74, 230, 0.6)), url(../img/bg-mobile.svg) no-repeat bottom right/cover;
+  background-attachment: fixed;
+
+  }
+
+
+
+}
+
+.content {
+
+  &-content {
+    flex: 1;
+    margin-top: -11rem;
+    margin-left: 5rem;
+
+    @media only screen and(max-width:$bp-medium) {
+
+      margin-top: 0;
+      margin-left: 0;
+
+    }
+
+
+  }
+
+  &-title {
+
+    @media only screen and(max-width:$bp-medium) {
+
+      margin-top: 3rem;
+      text-align: center;
+    }
+    @media only screen and(max-width:$bp-smallest) {
+
+      margin-top: 11rem;
+      text-align: center;
+    }
+
+  }
+
+
+  &-text {
+    font-size: 2rem;
+    opacity: 0.8;
+
+    @media only screen and(max-width:$bp-medium) {
+
+      text-align: center;
+    }
+
+    @media only screen and(max-width:$bp-small) {
+
+      letter-spacing: 0.2rem;
+    }
+
+
+  }
+
+  &-img {
+
+    max-width: 25%;
+    margin-top: 7rem;
+
+    @media only screen and(max-width:$bp-medium) {
+
+      margin-bottom: 12rem;
+    }
+
+    &-main {
+      max-width: 40%;
+      margin: auto;
+
+    }
+  }
+
+  &-btn {
+    margin-top: 3rem;
+    border-radius: 20px;
+    background: #f4f4f4;
+    color:$violet;
+    min-width: 33%;
+    box-shadow: 2px 3px 3px 0px rgba(0, 0, 0, 0.75);
+
+
+    @media only screen and(max-width:$bp-medium) {
+
+      min-width: 50%;
+      margin-left: 22%;
+      margin-right: 50%;
+
+    }
+
+    @media only screen and(max-width:$bp-smallest) {
+
+      margin-top: 10%;
+
+    }
+  }
+
+  &-icons {
+
+     position: absolute;
+     top:90%;
+     left: 80%;
+   
+   
+    font-size: 3rem;
+
+
+    @media only screen and(max-width:$bp-medium) {
+
+      left:35%;
+
+    }
+    @media only screen and(max-width:$bp-small) {
+      margin-top: -1rem;  
+      left:33%;
+
+    }
+    @media only screen and(max-width:$bp-smallest) {
+      margin-top: -3rem;    
+      left:23%;
+
+    }
+  }
+}
+
+i {
+
+  padding: 1.3rem;
+  border: 2px solid white;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-left: 1rem;
+}
+
+.fa-facebook-f {
+
+  padding: 1.3rem 1.8rem;
+}
