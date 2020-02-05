@@ -68,7 +68,7 @@ textarea {
   font-size: 18px;
   color: #fff;
   background: #333;
-  padding: 0.9rem 1.4rem;
+  padding: 1rem 1.5rem;
   border: none;
   cursor: pointer;
   -webkit-transition: all 0.6s;
@@ -603,8 +603,8 @@ table th {
 }
 
 .bg {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(103, 75, 175, 0.6)), to(rgba(116, 74, 230, 0.6))), url(../img/bg-desktop.svg) no-repeat top right/cover;
-  background: linear-gradient(rgba(103, 75, 175, 0.6), rgba(116, 74, 230, 0.6)), url(../img/bg-desktop.svg) no-repeat top right/cover;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(103, 75, 175, 0.9)), to(rgba(116, 74, 230, 0.9))), url(../img/bg-desktop.svg) no-repeat top right/cover;
+  background: linear-gradient(rgba(103, 75, 175, 0.9), rgba(116, 74, 230, 0.9)), url(../img/bg-desktop.svg) no-repeat top right/cover;
   background-attachment: fixed;
 }
 
@@ -629,6 +629,10 @@ table th {
     margin-top: 0;
     margin-left: 0;
   }
+}
+
+.content-title {
+  letter-spacing: 0.4rem;
 }
 
 @media only screen and (max-width: 61.25em) {
@@ -663,7 +667,7 @@ table th {
 }
 
 .content-img {
-  max-width: 25%;
+  max-width: 20%;
   margin-top: 7rem;
 }
 
@@ -683,7 +687,7 @@ table th {
   border-radius: 20px;
   background: #f4f4f4;
   color: #674baf;
-  min-width: 33%;
+  min-width: 34%;
   -webkit-box-shadow: 2px 3px 3px 0px rgba(0, 0, 0, 0.75);
           box-shadow: 2px 3px 3px 0px rgba(0, 0, 0, 0.75);
 }
@@ -706,7 +710,7 @@ table th {
   position: absolute;
   top: 90%;
   left: 80%;
-  font-size: 3rem;
+  font-size: 2.1rem;
 }
 
 @media only screen and (max-width: 61.25em) {
